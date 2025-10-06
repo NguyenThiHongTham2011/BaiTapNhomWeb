@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <title>Rau Sạch Online</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #f5f9f6;
+      color: #333;
+      margin: 0;
+      padding: 0;
+    }
+
+    nav ul {
+      display: flex;
+      gap: 20px;
+      padding: 15px;
+      background-color: #c8e6c9;
+      list-style: none;
+      justify-content: center;
+    }
+
+    nav ul li a {
+      text-decoration: none;
+      color: #2e7d32;
+      font-weight: bold;
+    }
+
+    nav ul li a:hover {
+      color: #1b5e20;
+    }
+
+    section {
+      padding: 30px;
+      max-width: 900px;
+      margin: auto;
+    }
+
+    section h2 {
+      font-size: 28px;
+      color: #2e7d32;
+      border-bottom: 2px solid #c8e6c9;
+      padding-bottom: 5px;
+      margin-bottom: 15px;
+    }
+
+    section p {
+      font-size: 16px;
+      margin-bottom: 15px;
+    }
+
+    section ul {
+      list-style: none;
+      padding-left: 0;
+    }
+
+    section ul li {
+      background: #e8f5e9;
+      margin-bottom: 8px;
+      padding: 10px;
+      border-left: 5px solid #66bb6a;
+      border-radius: 4px;
+    }
+
+    article {
+      background-color: #ffffff;
+      border: 1px solid #dcedc8;
+      padding: 15px;
+      margin-bottom: 15px;
+      border-radius: 6px;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+    }
+
+    article h3 {
+      font-size: 20px;
+      color: #388e3c;
+      margin-bottom: 5px;
+    }
+
+    img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 8px;
+      margin-bottom: 15px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      background-color: #c8e6c9;
+      color: #2e7d32;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+
+  <nav>
+    <ul>
+      <li><a href="#gioi-thieu">Giới thiệu</a></li>
+      <li><a href="#tin-tuc">Tin tức</a></li>
+      <li><a href="#lien-he">Liên hệ</a></li>
+    </ul>
+  </nav>
+
+  <section id="gioi-thieu">
+    <h2>Giới Thiệu</h2>
+    <p>Rau Sạch Online là nền tảng chuyên cung cấp rau củ quả tươi ngon, an toàn, có nguồn gốc rõ ràng. Chúng tôi hợp tác với các nông trại đạt chuẩn VietGAP và hữu cơ để mang đến sản phẩm chất lượng nhất.</p>
+    <ul>
+      <li>🌱 100% rau sạch, không thuốc trừ sâu</li>
+      <li>🚚 Giao hàng nhanh trong ngày</li>
+      <li>🧑‍🌾 Hỗ trợ nông dân địa phương</li>
+      <li>📦 Đóng gói thân thiện môi trường</li>
+    </ul>
+  </section>
+
+  <section id="tin-tuc">
+    <h2>Tin Tức</h2>
+    <article>
+      <h3>🌽 Mùa thu hoạch bắp non hữu cơ</h3>
+      <p>Tháng 10/2025 – Bắp non đầu mùa từ Lâm Đồng đã về kho. Giá ưu đãi đặc biệt trong tuần này.</p>
+    </article>
+    <article>
+      <h3>🥗 Bí quyết chọn rau sạch</h3>
+      <p>Chuyên gia dinh dưỡng chia sẻ cách chọn rau an toàn cho bữa ăn gia đình.</p>
+    </article>
+    <article>
+      <h3>🍅 Hướng dẫn trồng rau tại nhà</h3>
+      <p>Chỉ cần vài chậu đất, hạt giống và ánh nắng – bạn đã có thể bắt đầu trồng rau sạch tại nhà.</p>
+    </article>
+  </section>
+
+  <section id="lien-he">
+    <h2>Liên Hệ</h2>
+    <p>Chúng tôi luôn sẵn sàng hỗ trợ bạn. Nếu có bất kỳ câu hỏi nào, hãy liên hệ qua:</p>
+    <ul>
+      <li>🏠 Địa chỉ: 123 Đường Rau Xanh, Quận 8, TP.HCM</li>
+      <li>📞 Hotline: 0393058500</li> 
+      <li>📧 Email: lienhe@rausachonline.vn</li>
+      <li>🌐 Website: www.rausachonline.vn</li>
+    </ul>
+  </section>
+
+  <footer>
+    © 2025 Rau Sạch Online – Sống xanh mỗi ngày
+  </footer>
+
+</body>
+</html>
